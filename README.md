@@ -23,10 +23,9 @@ dữ liệu được lưu trữ sẵn (dưới dạng JSON) thông qua trình me
 <h4>1. Tự động điền các thông tin được lưu sẵn với vài thao tác click chuột:</h4>
 
 <img src="./1.png" ><br>
-<img src="./2.png" ><br>
 
 <h4>2. Dễ dàng thay đổi nội dung text cần tự động điền (trong file data.json):</h4>
-<img src="./3.png" ><br>
+<img src="./2.png" ><br>
 
 ## MÔ TẢ KĨ THUẬT
 
