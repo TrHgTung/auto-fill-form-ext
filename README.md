@@ -8,7 +8,7 @@
 
 Không thể dùng được với các trình duyệt Safari / Firefox / Internet Explorer cũ
 
-- Tải xuống (Download ZIP) bộ source tại địa chỉ https://github.com/TrHgTung/auto-fill-form-ext, sau đó giải nén ra và ghi nhớ vị trí thư mục đã giải nén.
+- Tải xuống (Download ZIP) bộ source tại địa chỉ https://github.com/TrHgTung/ho-tro-dien-thong-tin-dang-nhap-profile, sau đó giải nén ra và ghi nhớ vị trí thư mục đã giải nén.
 
 <img src="./4.png" ><br>
 
