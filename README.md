@@ -1,8 +1,9 @@
 ## MÔ TẢ KĨ THUẬT
 
-- Khi click vào bất kỳ trường input hoặc textarea nào, content.js sẽ lắng nghe và lưu thông tin về trường đó.
-- Sau đó, khi click chuột phải tại vị trí đó để gọi trình menu ngữ cảnh -> lựa chọn các nội dung khác nhau (do cá nhân đã cấu hình) tại các sub-menu (menu con) được xổ ra.
-- Và cuối cùng, tại pop-up trình menu ngữ cảnh, khi trỏ chuột vào mục "Tự động điền dữ liệu" và lựa chọn các mục mong muốn, extension sẽ lấy dữ liệu từ file JSON và điền vào trường đã được focus trước đó.
+- Khi click vào bất kỳ MỘT trường input hoặc textarea nào, công cụ sẽ bắt sự kiện của người dùng và truyền ra thông tin được lưu sẵn để cho người dùng lựa chọn điền vào trường đó.
+- Sau đó, khi click chuột phải tại chính vị trí đó để gọi trình menu ngữ cảnh -> lựa chọn các nội dung khác nhau (do người dùng đã cấu hình) tại các menu con được xổ ra.
+- Và cuối cùng, extension sẽ lấy dữ liệu từ file data và điền vào trường đã được focus trước đó.
+- Các thông tin mà công cụ có thể hỗ trợ điền: Email và mật khẩu để đăng nhập vào social, các giá trị như trong file sheet Thông tin Profile, gồm có: Tên thương hiệu dài, Tên thương hiệu ngắn, Firstname, Lastname, Website/URL, Username dài, Username ngắn, Ngày sinh, Địa chỉ có dấu, Địa chỉ không dấu, Số điện thoại, ZIP Code / Mã bưu chính, Hashtag, Link Map (CID). Riêng với việc nhập các giá trị Giới thiệu dài, Giới thiệu ngắn 1,2,3,... sẽ có trong 1 bộ source công cụ khác (Đang phát triển - sẽ cập nhật link)
 
 <h2>YÊU CẦU TRƯỚC KHI CÀI ĐẶT EXTENSION</h2>
 
