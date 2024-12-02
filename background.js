@@ -48,30 +48,30 @@ chrome.runtime.onInstalled.addListener(() => {
                 title: "Lastname",
                 contexts: ["editable"]
             });
-            chrome.contextMenus.create({
-                id: "fillForm13",
-                parentId: "parentFillForm",
-                title: "Giới thiệu ngắn (Có dấu)",
-                contexts: ["editable"]
-            });
-            chrome.contextMenus.create({
-                id: "fillForm14",
-                parentId: "parentFillForm",
-                title: "Giới thiệu dài (Có dấu)",
-                contexts: ["editable"]
-            });
-            chrome.contextMenus.create({
-                id: "fillForm15",
-                parentId: "parentFillForm",
-                title: "Giới thiệu ngắn (Không dấu)",
-                contexts: ["editable"]
-            });
-            chrome.contextMenus.create({
-                id: "fillForm16",
-                parentId: "parentFillForm",
-                title: "Giới thiệu dài (Không dấu)",
-                contexts: ["editable"]
-            });
+            // chrome.contextMenus.create({
+            //     id: "fillForm13",
+            //     parentId: "parentFillForm",
+            //     title: "Giới thiệu ngắn (Có dấu)",
+            //     contexts: ["editable"]
+            // });
+            // chrome.contextMenus.create({
+            //     id: "fillForm14",
+            //     parentId: "parentFillForm",
+            //     title: "Giới thiệu dài (Có dấu)",
+            //     contexts: ["editable"]
+            // });
+            // chrome.contextMenus.create({
+            //     id: "fillForm15",
+            //     parentId: "parentFillForm",
+            //     title: "Giới thiệu ngắn (Không dấu)",
+            //     contexts: ["editable"]
+            // });
+            // chrome.contextMenus.create({
+            //     id: "fillForm16",
+            //     parentId: "parentFillForm",
+            //     title: "Giới thiệu dài (Không dấu)",
+            //     contexts: ["editable"]
+            // });
             chrome.contextMenus.create({
                 id: "fillForm17",
                 parentId: "parentFillForm",
@@ -162,18 +162,18 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
             else if (info.menuItemId === "fillForm12") {
                 contentToFill = formData.lastname;
             }
-            else if (info.menuItemId === "fillForm13") {
-                contentToFill = formData.gioi_thieu_ngan_CO_DAU;
-            }
-            else if (info.menuItemId === "fillForm14") {
-                contentToFill = formData.gioi_thieu_dai_CO_DAU;
-            }
-            else if (info.menuItemId === "fillForm15") {
-                contentToFill = formData.gioi_thieu_ngan_KHONG_DAU;
-            }
-            else if (info.menuItemId === "fillForm16") {
-                contentToFill = formData.gioi_thieu_dai_KHONG_DAU;
-            }
+            // else if (info.menuItemId === "fillForm13") {
+            //     contentToFill = formData.gioi_thieu_ngan_CO_DAU;
+            // }
+            // else if (info.menuItemId === "fillForm14") {
+            //     contentToFill = formData.gioi_thieu_dai_CO_DAU;
+            // }
+            // else if (info.menuItemId === "fillForm15") {
+            //     contentToFill = formData.gioi_thieu_ngan_KHONG_DAU;
+            // }
+            // else if (info.menuItemId === "fillForm16") {
+            //     contentToFill = formData.gioi_thieu_dai_KHONG_DAU;
+            // }
             else if (info.menuItemId === "fillForm17") {
                 contentToFill = formData.website;
             }
